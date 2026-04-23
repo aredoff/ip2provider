@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ip2provider"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python library to detect hosting provider based on IP, FQDN, and network information"
 readme = "README.md"
 requires-python = ">=3.8"
