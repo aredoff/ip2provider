@@ -1,0 +1,2815 @@
+{
+  "$schema": "./provider.v1.schema.json",
+  "version": 1,
+  "providers": [
+    {
+      "name": "hoster.by",
+      "signals": {
+        "netname": {
+          ".*HOSTERBY.*": 100,
+          ".*HOSTER-BY.*:": 100
+        },
+        "ptr": {
+          ".*\\.hosterby.com$": 100,
+          ".*\\.hoster.by$": 100
+        },
+        "netmail": {
+          "@hoster.by": 40
+        }
+      }
+    },
+    {
+      "name": "hb.by",
+      "signals": {
+        "ptr": {
+          ".*\\.hb.by$": 100
+        }
+      }
+    },
+    {
+      "name": "activecloud.by",
+      "signals": {
+        "ptr": {
+          ".*\\.activeby.net$": 100
+        },
+        "netname": {
+          ".*ACTIVECLOUD.*": 100,
+          ".*AKTIVNIE-TEHNOLOGII.*": 100
+        },
+        "netmail": {
+          "@active.by": 40
+        }
+      }
+    },
+    {
+      "name": "excloud.by",
+      "signals": {
+        "netname": {
+          ".*EXCLOUDS-NET.*": 20
+        },
+        "netmail": {
+          "@excloud.by": 40
+        }
+      }
+    },
+    {
+      "name": "support.by",
+      "signals": {
+        "ptr": {
+          ".*\\.support.by$": 100
+        },
+        "netname": {
+          ".*BEROS.*": 100
+        }
+      }
+    },
+    {
+      "name": "variti.com",
+      "signals": {
+        "netname": {
+          ".*VARITI.*": 100,
+          ".*-VARITIPLS-.*": 100
+        },
+        "netmail": {
+          "@variti.io": 40
+        }
+      }
+    },
+    {
+      "name": "login.by",
+      "signals": {
+        "netname": {
+          ".*LOGIN-BY.*": 100
+        },
+        "ptr": {
+          ".*login.by$": 100
+        }
+      }
+    },
+    {
+      "name": "timeweb.com",
+      "signals": {
+        "netname": {
+          ".*TimeWeb.*": 100
+        }
+      }
+    },
+    {
+      "name": "illuminatedhosting.com",
+      "signals": {
+        "netname": {
+          "^SM-SANDIEGO-2$": 100
+        }
+      }
+    },
+    {
+      "name": "cloudvps.by",
+      "signals": {
+        "netname": {
+          "^BY-CLOUDVPS$": 100,
+          "^BY-CLOUDVPS-.*": 100
+        },
+        "netmail": {
+          "@cloudvps.by": 20
+        }
+      }
+    },
+    {
+      "name": "hetzner.com",
+      "signals": {
+        "ptr": {
+          ".*\\.your-server.de$": 100
+        },
+        "netname": {
+          ".*HETZNER.*": 100
+        },
+        "netmail": {
+          "@hetzner.de": 100,
+          "@hetzner.com": 100
+        },
+        "ns": {
+          ".*hetzner\\..*": 30
+        }
+      }
+    },
+    {
+      "name": "beget.com",
+      "signals": {
+        "netname": {
+          ".*BEGET-NET.*": 100,
+          "RU-BEGET.*": 100
+        },
+        "netmail": {
+          "@beget.ru$": 40
+        }
+      }
+    },
+    {
+      "name": "megadata.by",
+      "signals": {
+        "netname": {
+          ".*MEGADATA.*": 100
+        }
+      }
+    },
+    {
+      "name": "besthost.by",
+      "signals": {
+        "netname": {
+          ".*BESTHOST.*": 100
+        },
+        "ptr": {
+          ".*\\.besthost.by$": 100
+        }
+      }
+    },
+    {
+      "name": "mycloud.by",
+      "signals": {
+        "netname": {
+          "^mycloud$": 100
+        }
+      }
+    },
+    {
+      "name": "serverspace.by",
+      "signals": {
+        "netname": {
+          ".*ITGLOBAL.*": 100
+        }
+      }
+    },
+    {
+      "name": "hostfly.by",
+      "signals": {
+        "netname": {
+          "^BY-SUPPORTCHAIN$": 100,
+          "^BY-SUPPORTCHAIN-*": 100
+        },
+        "netmail": {
+          "@hostfly.by": 5
+        }
+      }
+    },
+    {
+      "name": "onenet.by",
+      "signals": {
+        "netname": {
+          "^Vash-Internet$": 100
+        }
+      }
+    },
+    {
+      "name": "ideahost.by",
+      "signals": {
+        "netname": {
+          "^WestHostPE-1$": 100,
+          "^IDEAHOST$": 100
+        },
+        "ptr": {
+          ".*\\.ideahost.by$": 100
+        },
+        "netmail": {
+          "@ideahost.by": 15
+        }
+      }
+    },
+    {
+      "name": "beltelecom.by",
+      "signals": {
+        "ptr": {
+          ".*\\.beltelecom.by$": 100,
+          ".*\\.datacenter.by$": 100,
+          ".*\\.mgts.by$": 100
+        },
+        "ns": {
+          ".*\\.mgts.by": 10
+        },
+        "netname": {
+          "^BELTELECOM-DATACENTER.*": 5
+        },
+        "netmail": {
+          ".+beltelecom.by": 5,
+          "@dc.beltelecom.by$": 50
+        }
+      }
+    },
+    {
+      "name": "becloud.by",
+      "signals": {
+        "netname": {
+          "^BECLOUD-RDC.*": 30,
+          "^BECLOUD$": 30
+        },
+        "netmail": {
+          "@becloud.by": 30
+        }
+      }
+    },
+    {
+      "name": "key-systems.net",
+      "signals": {
+        "netmail": {
+          "@key-systems.net": 30
+        }
+      }
+    },
+    {
+      "name": "servicepipe.ru",
+      "signals": {
+        "netname": {
+          "^RU-SERVICEPIPE-.*": 30
+        },
+        "netmail": {
+          "@servicepipe.ru": 30
+        }
+      }
+    },
+    {
+      "name": "mhost.by",
+      "signals": {
+        "netname": {
+          "^mhostby.*": 100
+        },
+        "netmail": {
+          "@mhost.by$": 30
+        }
+      }
+    },
+    {
+      "name": "datahata.by",
+      "signals": {
+        "netname": {
+          "^DATAHATA.*": 30
+        },
+        "netmail": {
+          "@datahata.by": 30
+        }
+      }
+    },
+    {
+      "name": "nextdimensioninc.com",
+      "signals": {
+        "netname": {
+          "^TEAM-INTERNET-.*": 30
+        },
+        "netmail": {
+          "@nextdimensioninc.com": 30
+        }
+      }
+    },
+    {
+      "name": "google.com",
+      "signals": {
+        "netname": {
+          ".*GOOGLE.*": 40,
+          "GOOGL-.*": 40
+        },
+        "ptr": {
+          ".*googleusercontent.com$": 100
+        },
+        "netmail": {
+          "@google.com": 30
+        }
+      }
+    },
+    {
+      "name": "open.by",
+      "signals": {
+        "ptr": {
+          ".*open.by$": 100
+        },
+        "netname": {
+          "^OPEN-CONTACT$": 100
+        }
+      }
+    },
+    {
+      "name": "parking.by",
+      "signals": {
+        "ptr": {
+          ".*\\.parking.by$": 100,
+          ".*\\.cloudpark.by$": 100
+        },
+        "netname": {
+          "^CloudPark-NET.*": 10
+        },
+        "netmail": {
+          "@parking.by": 30
+        }
+      }
+    },
+    {
+      "name": "deal.by",
+      "signals": {
+        "ip": {
+          "31.130.200.167": 100
+        }
+      }
+    },
+    {
+      "name": "bitrix24.net",
+      "signals": {
+        "ip": {
+          "185.183.122.14": 100
+        }
+      }
+    },
+    {
+      "name": "lpmotor.ru",
+      "signals": {
+        "ip": {
+          "185.183.122.14": 100
+        }
+      }
+    },
+    {
+      "name": "tilda.cc",
+      "signals": {
+        "netname": {
+          "Tilda_Publishing": 100,
+          ".*TILDAPUBLISHING.*": 100
+        },
+        "ip": {
+          "185.183.122.14": 100,
+          "185.165.123.206": 100
+        },
+        "netmail": {
+          "@tilda.cc$": 30,
+          "@tilda.by$": 30,
+          "@tilda.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "digitalocean.com",
+      "signals": {
+        "netname": {
+          "^DIGITALOCEAN.*": 20,
+          ".+-DIGITALOCEAN-.*": 20
+        },
+        "netmail": {
+          "@digitalocean.com": 30
+        }
+      }
+    },
+    {
+      "name": "fornex.com",
+      "signals": {
+        "ptr": {
+          ".*\\.fornex.org$": 100,
+          ".*\\.fornex.host$": 100
+        },
+        "netname": {
+          ".+-FORNEX$": 80
+        }
+      }
+    },
+    {
+      "name": "freehost.com.ua",
+      "signals": {
+        "netname": {
+          "^FREEHOST-DC$": 100
+        }
+      }
+    },
+    {
+      "name": "delta-telecom.net",
+      "signals": {
+        "netname": {
+          "^DELTA-DSL$": 100
+        }
+      }
+    },
+    {
+      "name": "ipipe.net",
+      "signals": {
+        "netname": {
+          "^uaonline-ipipe-ru.*": 100
+        }
+      }
+    },
+    {
+      "name": "iv.lt",
+      "signals": {
+        "netmail": {
+          "@iv.lt": 40
+        }
+      }
+    },
+    {
+      "name": "serveriai.lt",
+      "signals": {
+        "ptr": {
+          ".*\\.1serveriai.lt$": 100
+        }
+      }
+    },
+    {
+      "name": "reg.ru",
+      "signals": {
+        "ptr": {
+          ".*hosting.reg.ru$": 100
+        },
+        "netname": {
+          "^REGRU-NETWORK$": 50
+        },
+        "netmail": {
+          "@reg.ru": 30
+        }
+      }
+    },
+    {
+      "name": "colobridge.net",
+      "signals": {
+        "netname": {
+          "^DE-COLOBRIDGE.*": 100
+        },
+        "netmail": {
+          "@colobridge.net$": 80
+        }
+      }
+    },
+    {
+      "name": "jino.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.jino.ru$": 100
+        },
+        "netname": {
+          "^AVGURO-NET$": 20
+        },
+        "netmail": {
+          "@jino.ru$": 80
+        }
+      }
+    },
+    {
+      "name": "selectel.ru",
+      "signals": {
+        "netname": {
+          "^SELECTEL-NET$": 50
+        },
+        "netmail": {
+          "@selectel.ru$": 80
+        }
+      }
+    },
+    {
+      "name": "A1",
+      "signals": {
+        "netname": {
+          "^A1-BLR.*": 10,
+          "^GARANT-GOMEL$": 10,
+          "ATLANTTELECOMENDUSERS": 10
+        },
+        "netmail": {
+          "@a1.by$": 10,
+          "@telecom.by$": 10
+        }
+      }
+    },
+    {
+      "name": "true.by",
+      "signals": {
+        "ptr": {
+          ".*\\.true.by$": 100
+        }
+      }
+    },
+    {
+      "name": "u-team.by",
+      "signals": {
+        "netname": {
+          "^U-TEAM$": 10
+        },
+        "netmail": {
+          "@u-team.by$": 20
+        }
+      }
+    },
+    {
+      "name": "sitepro.by",
+      "signals": {
+        "ptr": {
+          ".*\\.sitepro.by$": 100,
+          "sitepro.by": 100
+        }
+      }
+    },
+    {
+      "name": "1gb.by",
+      "signals": {
+        "ptr": {
+          ".*\\.1gb.by$": 100
+        }
+      }
+    },
+    {
+      "name": "majordomo.ru",
+      "signals": {
+        "netname": {
+          "^RU-MAJORDOMO.*": 100
+        },
+        "netmail": {
+          "@majordomo.ru$": 40
+        }
+      }
+    },
+    {
+      "name": "aws.amazon.com",
+      "signals": {
+        "netname": {
+          "^AMAZON-.*": 30
+        },
+        "ptr": {
+          ".*\\.amazonaws.com$": 100,
+          ".*\\.awsglobalaccelerator.com$": 100
+        },
+        "netmail": {
+          "@amazonaws.com$": 40
+        }
+      }
+    },
+    {
+      "name": "contabo.de",
+      "signals": {
+        "ptr": {
+          ".*\\.contaboserver.net$": 100
+        },
+        "netname": {
+          "^CONTABO": 30
+        },
+        "netmail": {
+          "@contabo.de$": 40
+        }
+      }
+    },
+    {
+      "name": "exepto.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.exepto.ru$": 100
+        },
+        "netmail": {
+          "@exepto.ru$": 40
+        }
+      }
+    },
+    {
+      "name": "liquidweb.com",
+      "signals": {
+        "netname": {
+          "^LIQUIDWEB$": 100
+        },
+        "netmail": {
+          "@liquidweb.com$": 20
+        }
+      }
+    },
+    {
+      "name": "inwx.net",
+      "signals": {
+        "netname": {
+          "^INTERNETWORX-INFRA.*": 30
+        },
+        "netmail": {
+          "@internetworx.com$": 20
+        }
+      }
+    },
+    {
+      "name": "bitly.com",
+      "signals": {
+        "netname": {
+          "^BITLY$": 30
+        },
+        "netmail": {
+          "@bitly.com": 20
+        }
+      }
+    },
+    {
+      "name": "artishost.com",
+      "signals": {
+        "ptr": {
+          ".*\\.artishost.com$": 100
+        }
+      }
+    },
+    {
+      "name": "fozzy.com",
+      "signals": {
+        "ptr": {
+          ".*\\.fozzy.com$": 100
+        }
+      }
+    },
+    {
+      "name": "dominiando.it",
+      "signals": {
+        "ptr": {
+          ".*\\.dominiando.net$": 100
+        }
+      }
+    },
+    {
+      "name": "hostgator.com",
+      "signals": {
+        "netname": {
+          "^HGBLOCK.*": 50
+        },
+        "netmail": {
+          "@hostgator.com$": 50
+        }
+      }
+    },
+    {
+      "name": "fastvps.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.fastvps-server.com": 50
+        },
+        "netmail": {
+          "@fastvps.ee$": 50
+        }
+      }
+    },
+    {
+      "name": "linode.com",
+      "signals": {
+        "ptr": {
+          ".*\\.linode.com": 100
+        },
+        "netname": {
+          ".*\\-LINODE\\-.*": 50
+        },
+        "netmail": {
+          "@linode.com$": 50
+        }
+      }
+    },
+    {
+      "name": "ukraine.com.ua",
+      "signals": {
+        "ptr": {
+          ".*\\.default-host.net": 100
+        },
+        "netmail": {
+          "@ukraine.com.ua$": 20,
+          "@abuse.team$": 20
+        }
+      }
+    },
+    {
+      "name": "akamai.com",
+      "signals": {
+        "ptr": {
+          ".*\\.akamaitechnologies.com": 100
+        },
+        "netmail": {
+          "@akamai.com$": 20
+        }
+      }
+    },
+    {
+      "name": "fastly.com",
+      "signals": {
+        "netmail": {
+          "@fastly.com$": 20
+        }
+      }
+    },
+    {
+      "name": "cloudflare.com",
+      "signals": {
+        "netname": {
+          ".*CLOUDFLARENET.*": 50
+        },
+        "netmail": {
+          "@cloudflare.com$": 20
+        }
+      }
+    },
+    {
+      "name": "webhost1.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.webhost1.ru": 100
+        },
+        "netname": {
+          "^RU-WEBHOST$": 20
+        },
+        "netmail": {
+          "@webhost1.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "sprinthost.ru",
+      "signals": {
+        "netname": {
+          "^SPRINTHOST-NET.+": 20
+        },
+        "netmail": {
+          "@sprinthost.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "gandi.net",
+      "signals": {
+        "ptr": {
+          ".*\\.gandi.net": 100
+        },
+        "netname": {
+          "^GANDIFR-NET.*": 20
+        },
+        "netmail": {
+          "@gandi.net$": 20
+        }
+      }
+    },
+    {
+      "name": "zbscloud.com",
+      "signals": {
+        "ptr": {
+          ".*\\.zbs.cloud": 100
+        },
+        "netname": {
+          ".*-ZBSCLOUD-.*": 20
+        },
+        "netmail": {
+          "@zbscloud.com$": 20
+        }
+      }
+    },
+    {
+      "name": "windinternethaus.de",
+      "signals": {
+        "netname": {
+          "^WIND-INTERNET.*": 20
+        },
+        "netmail": {
+          "@windinternethaus.de$": 20
+        }
+      }
+    },
+    {
+      "name": "leaseweb.com",
+      "signals": {
+        "netname": {
+          "^Leaseweb.*": 20
+        },
+        "netmail": {
+          ".*\\.leaseweb.com$": 20
+        }
+      }
+    },
+    {
+      "name": "mchost.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.mchost.ru": 100
+        },
+        "netname": {
+          "^MCHOST-NET.*": 20
+        },
+        "netmail": {
+          "@mchost.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "hostland.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.hostland.ru": 100
+        },
+        "netname": {
+          "^HOSTLAND.*": 20
+        },
+        "netmail": {
+          "@hostland.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "zone.eu",
+      "signals": {
+        "ptr": {
+          ".*\\.zonevs.eu": 100
+        },
+        "netname": {
+          "^EE-ZONE-HOSTING.*": 20
+        },
+        "netmail": {
+          "@zone.eu$": 20
+        }
+      }
+    },
+    {
+      "name": "ddos-guard.net",
+      "signals": {
+        "ptr": {
+          ".*ddos-guard.net": 100
+        },
+        "netmail": {
+          "@ddos-guard.net$": 20
+        }
+      }
+    },
+    {
+      "name": "github.com",
+      "signals": {
+        "netname": {
+          "^US-GITHUB.*": 50
+        },
+        "netmail": {
+          "@github.com$": 50
+        }
+      }
+    },
+    {
+      "name": "mserwis.pl",
+      "signals": {
+        "netname": {
+          "^MSERWIS.*": 30
+        },
+        "netmail": {
+          "@mserwis.pl$": 50
+        }
+      }
+    },
+    {
+      "name": "shneider-host.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.shneider-host.ru": 100
+        },
+        "netmail": {
+          "@s-host.com.ua$": 20
+        }
+      }
+    },
+    {
+      "name": "netim.com",
+      "signals": {
+        "ptr": {
+          ".*\\.netim.net": 100
+        },
+        "netname": {
+          "^NETIM.*": 30
+        },
+        "netmail": {
+          "@netim.com$": 20
+        }
+      }
+    },
+    {
+      "name": "cscdbs.com",
+      "signals": {
+        "netname": {
+          "^NETNAMES-SVC$": 30,
+          "^CSCNET$": 30
+        },
+        "netmail": {
+          "@netnames.com$": 20
+        }
+      }
+    },
+    {
+      "name": "wfolio.ru",
+      "signals": {
+        "ptr": {
+          "^wfolio.ru$": 100
+        }
+      }
+    },
+    {
+      "name": "firstvds.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.fvds.ru$": 100
+        },
+        "netmail": {
+          "@abusehost.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "imperva.com",
+      "signals": {
+        "ptr": {
+          ".*\\.incapdns.net$": 100
+        },
+        "netname": {
+          "^INCAPSULA-NETWORK$": 30
+        },
+        "netmail": {
+          "@incapsula.com$": 20
+        }
+      }
+    },
+    {
+      "name": "register.it",
+      "signals": {
+        "ptr": {
+          ".*\\.register.it$": 100
+        },
+        "netmail": {
+          "@register.it$": 20
+        }
+      }
+    },
+    {
+      "name": "getspace.us",
+      "signals": {
+        "ptr": {
+          ".*\\.getspace.us$": 100
+        }
+      }
+    },
+    {
+      "name": "safebrands.com",
+      "signals": {
+        "ptr": {
+          ".*\\.mailclub.fr$": 100
+        },
+        "netname": {
+          "^.*SAFEBRANDS.*": 30
+        },
+        "netmail": {
+          "@safebrands.com$": 20
+        }
+      }
+    },
+    {
+      "name": "hitex.by",
+      "signals": {
+        "ip": {
+          "93.84.117.211": 100
+        },
+        "ptr": {
+          ".*\\.rbel.info": 100
+        }
+      }
+    },
+    {
+      "name": "mir.by",
+      "signals": {
+        "ptr": {
+          ".*\\.mir.by": 100
+        },
+        "netname": {
+          "^KONSTANTA$": 30
+        },
+        "netmail": {
+          "@mir.by$": 20
+        }
+      }
+    },
+    {
+      "name": "ihc.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.ihc.ru": 100
+        },
+        "netname": {
+          "^IHC-NET$": 30
+        },
+        "netmail": {
+          "@ihc.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "ps.kz",
+      "signals": {
+        "netname": {
+          "^PSKZ-.*": 30
+        },
+        "netmail": {
+          "@ps.kz$": 20
+        }
+      }
+    },
+    {
+      "name": "internetx.com",
+      "signals": {
+        "netname": {
+          "^INTERNETX.*": 30
+        },
+        "netmail": {
+          "@internetx.de$": 20,
+          "@internetx.com$": 20
+        }
+      }
+    },
+    {
+      "name": "hostnet.nl",
+      "signals": {
+        "ptr": {
+          ".*\\.hostnet.nl": 100
+        },
+        "netname": {
+          "^HOSTNET-NL$": 30
+        },
+        "netmail": {
+          "@hostnet.nl$": 20
+        }
+      }
+    },
+    {
+      "name": "united-domains.de",
+      "signals": {
+        "ptr": {
+          ".*\\.udag.de": 100
+        },
+        "netname": {
+          "^DE-UDAG.*": 30
+        },
+        "netmail": {
+          "@united-domains.de$": 20
+        }
+      }
+    },
+    {
+      "name": "nameshield.com",
+      "signals": {
+        "ptr": {
+          ".*\\.perf1.com": 100
+        },
+        "netname": {
+          "^NAMESHIELD.*": 30
+        },
+        "netmail": {
+          "@nameshield.net$": 20
+        }
+      }
+    },
+    {
+      "name": "iptel.by",
+      "signals": {
+        "ptr": {
+          ".*\\.iptel.by": 100
+        },
+        "netname": {
+          "^IPTEL$": 30
+        },
+        "netmail": {
+          "@iptel.by$": 20
+        }
+      }
+    },
+    {
+      "name": "ebrandservices.com",
+      "signals": {
+        "ptr": {
+          ".*\\.ebrandservices.com": 100
+        }
+      }
+    },
+    {
+      "name": "gransy.com",
+      "signals": {
+        "ptr": {
+          ".*\\.gransy.com": 100
+        },
+        "netname": {
+          "^Gransy-CZ$": 30
+        },
+        "netmail": {
+          "@casablanca.cz$": 20
+        }
+      }
+    },
+    {
+      "name": "rackspace.com",
+      "signals": {
+        "netname": {
+          "^DATAPIPE.*": 30
+        },
+        "netmail": {
+          "@datapipe.com$": 20
+        }
+      }
+    },
+    {
+      "name": "imena.ua",
+      "signals": {
+        "ptr": {
+          ".*\\.dnshosting.org": 100
+        }
+      }
+    },
+    {
+      "name": "hoster.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.hoster.ru": 100
+        }
+      }
+    },
+    {
+      "name": "hostinger.com",
+      "signals": {
+        "netname": {
+          ".*HOSTINGER.*": 30
+        },
+        "netmail": {
+          "@hostinger.com$": 20
+        }
+      }
+    },
+    {
+      "name": "safenames.net",
+      "signals": {
+        "ptr": {
+          ".*\\.idp365.net": 100
+        },
+        "netname": {
+          "^Safenames$": 30
+        },
+        "netmail": {
+          "@safenames.net$": 20
+        }
+      }
+    },
+    {
+      "name": "cityline.by",
+      "signals": {
+        "ptr": {
+          ".*\\.cityline.by": 100
+        },
+        "netmail": {
+          "@cityline.by$": 20
+        }
+      }
+    },
+    {
+      "name": "bn.by",
+      "signals": {
+        "ptr": {
+          ".*\\.bn.by": 100
+        },
+        "netmail": {
+          "@bn.by$": 5
+        }
+      }
+    },
+    {
+      "name": "squarespace.com",
+      "signals": {
+        "netname": {
+          "^SQUARESPACE": 30
+        },
+        "netmail": {
+          "@squarespace.com$": 20
+        }
+      }
+    },
+    {
+      "name": "is-fun.de",
+      "signals": {
+        "ptr": {
+          ".*\\.wwwserver.net": 100
+        },
+        "netname": {
+          "^ISFUN.*": 30
+        },
+        "netmail": {
+          "@is-fun.de$": 20
+        }
+      }
+    },
+    {
+      "name": "cybersquatter01",
+      "signals": {
+        "ip": {
+          "212.92.127.162": 100
+        }
+      }
+    },
+    {
+      "name": "hostiman.com",
+      "signals": {
+        "ptr": {
+          ".*\\.hostiman.com": 100
+        },
+        "netmail": {
+          "@hostiman.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "bizneshost.by",
+      "signals": {
+        "ptr": {
+          ".*\\.bizneshost.by": 100
+        }
+      }
+    },
+    {
+      "name": "komputerking.com",
+      "signals": {
+        "netname": {
+          "^KKING-.*": 30
+        },
+        "netmail": {
+          "@komputerking.com$": 20
+        }
+      }
+    },
+    {
+      "name": "leonex.de",
+      "signals": {
+        "netname": {
+          "^DE-LEONEX-.*": 30
+        },
+        "netmail": {
+          "@leonex.de$": 20
+        }
+      }
+    },
+    {
+      "name": "hostlife.net",
+      "signals": {
+        "ptr": {
+          ".*\\.hostlife.net": 100
+        },
+        "netmail": {
+          "@hostlife.net$": 20
+        }
+      }
+    },
+    {
+      "name": "timeweb.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.timeweb.ru": 100
+        },
+        "netname": {
+          "^TMWB-.*": 30
+        },
+        "netmail": {
+          "@timeweb.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "mirohost.net",
+      "signals": {
+        "ptr": {
+          ".*\\.mirohost.net": 100
+        },
+        "netname": {
+          "^MIROHOST$": 30
+        },
+        "netmail": {
+          "@mirohost.net$": 20
+        }
+      }
+    },
+    {
+      "name": "microsoft.com",
+      "signals": {
+        "netname": {
+          "^MSFT$": 30
+        },
+        "netmail": {
+          "@microsoft.com$": 20
+        }
+      }
+    },
+    {
+      "name": "vibiznes.pl",
+      "signals": {
+        "ptr": {
+          ".*\\.vibiznes.pl": 100
+        },
+        "netname": {
+          "^PL-Vibiznes$": 30
+        },
+        "netmail": {
+          "@microsoft.com$": 20
+        }
+      }
+    },
+    {
+      "name": "databank.lt",
+      "signals": {
+        "ptr": {
+          ".*\\.databank.eu": 100
+        },
+        "netname": {
+          ".*DATABANKGROUP.*": 30
+        },
+        "netmail": {
+          "@databank.lt$": 20
+        }
+      }
+    },
+    {
+      "name": "arubacloud.com",
+      "signals": {
+        "ptr": {
+          ".*\\.arubacloud.de": 100
+        },
+        "netmail": {
+          ".*\\.aruba.it$": 20
+        }
+      }
+    },
+    {
+      "name": "artfiles.de",
+      "signals": {
+        "ptr": {
+          ".*\\.artfiles.de": 100
+        },
+        "netname": {
+          "^ARTFILES-NET$": 30
+        },
+        "netmail": {
+          "@artfiles.de$": 20
+        }
+      }
+    },
+    {
+      "name": "host-telecom.com",
+      "signals": {
+        "ptr": {
+          ".*\\.host-telecom.com": 100
+        },
+        "netname": {
+          "^HTELECOM-NET$": 30
+        },
+        "netmail": {
+          "@host-telecom.cz$": 20
+        }
+      }
+    },
+    {
+      "name": "sweb.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.host-telecom.com": 100
+        },
+        "netname": {
+          "^SpaceWeb$": 30
+        },
+        "netmail": {
+          "@sweb.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "bcr.by",
+      "signals": {
+        "ptr": {
+          ".*\\.bcr.by": 100
+        }
+      }
+    },
+    {
+      "name": "scaleway.com",
+      "signals": {
+        "ptr": {
+          ".*\\.scaleway.com": 100
+        },
+        "netname": {
+          "^ONLINE_NET_DEDICATED_SERVERS$": 30
+        },
+        "netmail": {
+          "@online.net$": 20
+        }
+      }
+    },
+    {
+      "name": "vdsina.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.hosted-by-vdsina.ru": 100
+        },
+        "netname": {
+          "^VDSINA-NET$": 30
+        },
+        "netmail": {
+          "@vdsina.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "friendhosting.net",
+      "signals": {
+        "ptr": {
+          ".*\\.friendhosting.net": 100
+        },
+        "netname": {
+          "^FRIENDHOSTING$": 30
+        },
+        "netmail": {
+          "@friendhosting.net$": 20
+        }
+      }
+    },
+    {
+      "name": "adminvps.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.adminvps.ru": 100
+        },
+        "netname": {
+          "^RU-ADMINVPS.*": 30
+        },
+        "netmail": {
+          "@adminvps.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "tuthost.ua",
+      "signals": {
+        "ptr": {
+          ".*\\.tuthost.com": 100
+        },
+        "netname": {
+          "^TutHost$": 30
+        },
+        "netmail": {
+          "@tuthost.com$": 20
+        }
+      }
+    },
+    {
+      "name": "ucoz.net",
+      "signals": {
+        "ptr": {
+          ".*\\.ucoz.net": 100
+        },
+        "netname": {
+          "^UCOZ-NET": 30
+        },
+        "netmail": {
+          "@compubyte.vg$": 20
+        }
+      }
+    },
+    {
+      "name": "nbr.by",
+      "signals": {
+        "ptr": {
+          ".*\\.nbr.by": 1
+        },
+        "netname": {
+          "^Netberry$": 1,
+          "^NETBERRY-NET$": 1
+        },
+        "netmail": {
+          "@nbr.by$": 1
+        }
+      }
+    },
+    {
+      "name": "rusonyx.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.host4g.ru": 100
+        },
+        "netname": {
+          "^RU-RUSONYX.*": 30
+        },
+        "netmail": {
+          "@rusonyx.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "vultr.com",
+      "signals": {
+        "netmail": {
+          "@vultr.com$": 5
+        }
+      }
+    },
+    {
+      "name": "lite.host",
+      "signals": {
+        "ptr": {
+          ".*\\.lite-host.in": 100
+        }
+      }
+    },
+    {
+      "name": "anitex.by",
+      "signals": {
+        "netname": {
+          "^ANITEX$": 1
+        },
+        "netmail": {
+          "@anitex.by$": 1
+        }
+      }
+    },
+    {
+      "name": "netangels.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.netangels.ru": 100
+        },
+        "netname": {
+          "^RU-NETANGELS.*": 20
+        },
+        "netmail": {
+          "@netangels.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "epam.com",
+      "signals": {
+        "ptr": {
+          ".*\\.epam.com": 100
+        },
+        "netname": {
+          "^EPAM$": 20
+        }
+      }
+    },
+    {
+      "name": "eurobyte.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.eurodir.ru": 100
+        },
+        "netname": {
+          "^EUROBYTE-NET$": 20
+        },
+        "netmail": {
+          "@eurobyte.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "dogado.de",
+      "signals": {
+        "netmail": {
+          "@dogado.de$": 1
+        }
+      }
+    },
+    {
+      "name": "gmhost.hosting",
+      "signals": {
+        "ptr": {
+          ".*\\.gmhost.hosting": 100
+        }
+      }
+    },
+    {
+      "name": "thehost.ua",
+      "signals": {
+        "netname": {
+          "^THEHOST-NETWORK.*": 20
+        },
+        "netmail": {
+          "@thehost.ua$": 20
+        }
+      }
+    },
+    {
+      "name": "UNKNOWN! (server-panel.net)",
+      "signals": {
+        "ptr": {
+          ".*\\.server-panel.net": 100
+        },
+        "netmail": {
+          "@server-panel.net$": 20
+        }
+      }
+    },
+    {
+      "name": "di-net.ru",
+      "signals": {
+        "netname": {
+          "^RU-DINET.*": 10
+        },
+        "netmail": {
+          "@di-net.ru$": 10
+        }
+      }
+    },
+    {
+      "name": "active24.cz",
+      "signals": {
+        "ptr": {
+          ".*\\.active24.cz": 100
+        },
+        "netname": {
+          "^ACTIVE24-CZ.*": 10
+        },
+        "netmail": {
+          "@active24.cz$": 10
+        }
+      }
+    },
+    {
+      "name": "vshosting.cz",
+      "signals": {
+        "netmail": {
+          "@vshosting.cz$": 30
+        }
+      }
+    },
+    {
+      "name": "adman.com",
+      "signals": {
+        "netname": {
+          "^RU-ADMAN.*": 20
+        },
+        "netmail": {
+          "@adman.com$": 30
+        }
+      }
+    },
+    {
+      "name": "justhost.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.justhost.ru": 100
+        },
+        "netname": {
+          "^BX-NETWORK$": 20
+        },
+        "netmail": {
+          "@baxet.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "ua-hosting.company",
+      "signals": {
+        "ptr": {
+          ".*\\.ua-hosting.company": 100
+        },
+        "netname": {
+          "^NL-UA-HOSTING.*": 20
+        },
+        "netmail": {
+          "@ua-hosting.company$": 30
+        }
+      }
+    },
+    {
+      "name": "dreamhost.com",
+      "signals": {
+        "ptr": {
+          ".*\\.dreamhost.com": 100
+        },
+        "netname": {
+          "^DREAMHOST.*": 20
+        },
+        "netmail": {
+          "@dreamhost.com$": 30
+        }
+      }
+    },
+    {
+      "name": "godaddy.com",
+      "signals": {
+        "ptr": {
+          ".*\\.secureserver.net": 100
+        },
+        "netname": {
+          "^GO-DADDY.*": 20
+        },
+        "netmail": {
+          "@godaddy.com$": 30
+        }
+      }
+    },
+    {
+      "name": "daddy.cloud",
+      "signals": {
+        "netname": {
+          "^DADDYCLOUD-BY$": 20
+        },
+        "netmail": {
+          "@daddy.cloud$": 30
+        }
+      }
+    },
+    {
+      "name": "shop.by",
+      "signals": {
+        "ptr": {
+          ".*\\.shop.by": 100
+        }
+      }
+    },
+    {
+      "name": "owexxhosting.com",
+      "signals": {
+        "ptr": {
+          ".*\\.owexxhosting.com": 100
+        }
+      }
+    },
+    {
+      "name": "comlaude.com",
+      "signals": {
+        "ptr": {
+          ".*\\.comlaude.com": 100
+        }
+      }
+    },
+    {
+      "name": "deac.eu",
+      "signals": {
+        "ptr": {
+          ".*\\.deac.net": 100
+        },
+        "netname": {
+          "^DEAC-COLOCATION.*": 20
+        },
+        "netmail": {
+          "@deac.eu$": 30
+        }
+      }
+    },
+    {
+      "name": "variomedia.de",
+      "signals": {
+        "ptr": {
+          ".*\\.vrmd.de": 100
+        },
+        "netname": {
+          "^VARIOMEDIA.*": 20
+        },
+        "netmail": {
+          "@variomedia.de$": 30
+        }
+      }
+    },
+    {
+      "name": "101domain.com",
+      "signals": {
+        "ptr": {
+          ".*\\.hostingpanel2.com": 100
+        }
+      }
+    },
+    {
+      "name": "ukrnames.com",
+      "signals": {
+        "ptr": {
+          ".*\\.ukrnames.com": 100
+        },
+        "netname": {
+          "^UKRNAMES-NET.*": 20
+        },
+        "netmail": {
+          "@ukrnames.com$": 30
+        }
+      }
+    },
+    {
+      "name": "mail.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.mail.ru": 100
+        },
+        "netname": {
+          "^MAILRU.*": 20
+        },
+        "netmail": {
+          "@mcs.mail.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "ovh.ie",
+      "signals": {
+        "netname": {
+          "OVH-DEDICATED-.*": 10,
+          "OVH-ARIN-.*": 10
+        },
+        "netmail": {
+          "@ovh.net": 10,
+          "@ovh.ca": 10
+        }
+      }
+    },
+    {
+      "name": "abion.com",
+      "signals": {
+        "netname": {
+          "SE-PORTS-.*": 10
+        },
+        "netmail": {
+          "@portsgroup.com": 10
+        }
+      }
+    },
+    {
+      "name": "nethouse.ru",
+      "signals": {
+        "netname": {
+          "RU-NETHOUSE-.*": 100
+        },
+        "netmail": {
+          "@nethouse.ru": 10
+        }
+      }
+    },
+    {
+      "name": "digicert.com",
+      "signals": {
+        "netname": {
+          "^SECURITYSERVICES$": 40
+        },
+        "netmail": {
+          "@digicert.com": 10
+        }
+      }
+    },
+    {
+      "name": "websupport.sk",
+      "signals": {
+        "netname": {
+          "^SK-WEBSUPPORT-.*": 40
+        },
+        "netmail": {
+          "@websupport.sk": 10
+        }
+      }
+    },
+    {
+      "name": "cosmos-telecom.by",
+      "signals": {
+        "netname": {
+          "^CosmosTV$": 10
+        }
+      }
+    },
+    {
+      "name": "servinga.com",
+      "signals": {
+        "netname": {
+          "^ServingaNet$": 50
+        },
+        "netmail": {
+          "@servinga.com": 10
+        }
+      }
+    },
+    {
+      "name": "fornex.cloud",
+      "signals": {
+        "ptr": {
+          ".*\\.fornex.cloud": 100
+        },
+        "ns": {
+          ".*\\.fornex.com": 30
+        }
+      }
+    },
+    {
+      "name": "macloud.ru",
+      "signals": {
+        "netname": {
+          "^MACLOUD$": 100
+        },
+        "ptr": {
+          ".*\\.macloud.host": 100
+        },
+        "netmail": {
+          "@macloud.ru": 10
+        },
+        "ns": {
+          ".*\\.macloud.ru": 30
+        }
+      }
+    },
+    {
+      "name": "hoster.kz",
+      "signals": {
+        "ptr": {
+          ".*\\.hoster.kz": 100
+        },
+        "netname": {
+          "^Hoster-Almaty$": 10
+        }
+      }
+    },
+    {
+      "name": "servers.ru",
+      "signals": {
+        "netname": {
+          "^RU-SKYMEDIA-.+": 10
+        }
+      }
+    },
+    {
+      "name": "mts.by",
+      "signals": {
+        "netname": {
+          "^MTSBY$": 10
+        }
+      }
+    },
+    {
+      "name": "vercel.com",
+      "signals": {
+        "netname": {
+          "^VERCEL-.+": 10
+        },
+        "netmail": {
+          "@vercel.com$": 30
+        }
+      }
+    },
+    {
+      "name": "datacheap.ru",
+      "signals": {
+        "netname": {
+          "^DATA-CHEAP-NET$": 30
+        }
+      }
+    },
+    {
+      "name": "m-hoster.com",
+      "signals": {
+        "ptr": {
+          ".*\\.m-hoster-\\d.ru": 100
+        }
+      }
+    },
+    {
+      "name": "cloudsafe.pro",
+      "signals": {
+        "ptr": {
+          ".*\\.cloudsafe.pro": 100
+        }
+      }
+    },
+    {
+      "name": "megagroup.ru",
+      "signals": {
+        "netname": {
+          "^MEGAGROUP-NET$": 50
+        },
+        "netmail": {
+          "@megagroup.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "fullspace.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.fullspace.ru": 100
+        },
+        "netname": {
+          "^FullSpace-infra$": 50
+        },
+        "netmail": {
+          "@fullspace.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "hlvps.hk",
+      "signals": {
+        "netname": {
+          "^HVISCL-HK$": 80
+        },
+        "netmail": {
+          "@hlvps.net$": 100
+        }
+      }
+    },
+    {
+      "name": "servers.com",
+      "signals": {
+        "netname": {
+          "^SERVERS-COM-.+": 40
+        },
+        "netmail": {
+          "@servers.com$": 100
+        }
+      }
+    },
+    {
+      "name": "multihost.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.multihost.cloud": 100
+        },
+        "netname": {
+          "^RU-MULTIHOST-.+": 40
+        },
+        "netmail": {
+          "@multihost.ru$": 100
+        }
+      }
+    },
+    {
+      "name": "masterhost.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.masterhost.ru": 100
+        },
+        "netname": {
+          "^RU-MASTERHOST-.+": 40
+        },
+        "netmail": {
+          "@masterhost.ru$": 100
+        }
+      }
+    },
+    {
+      "name": "shopify.com",
+      "signals": {
+        "netname": {
+          "^SHOPIFY-NET$": 50
+        },
+        "netmail": {
+          "@shopify.com$": 100
+        }
+      }
+    },
+    {
+      "name": "quadranet.com",
+      "signals": {
+        "netname": {
+          "^QUADRANET$": 5
+        },
+        "netmail": {
+          "@quadranet.com$": 5
+        }
+      }
+    },
+    {
+      "name": "qrator.net",
+      "signals": {
+        "netname": {
+          "^QRATOR-.+": 20
+        },
+        "netmail": {
+          "@qrator.net$": 20
+        }
+      }
+    },
+    {
+      "name": "ifastnet.com",
+      "signals": {
+        "netname": {
+          ".*IFASTNET-.+": 20
+        },
+        "netmail": {
+          "ifastnet.com$": 20
+        }
+      }
+    },
+    {
+      "name": "valuehost.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.valuehost.ru": 100
+        }
+      }
+    },
+    {
+      "name": "verkko24.fi",
+      "signals": {
+        "ptr": {
+          ".*\\.ix.fi": 100
+        }
+      }
+    },
+    {
+      "name": "mmd.net",
+      "signals": {
+        "netname": {
+          "^MMD-SERVER-NET$": 10
+        },
+        "netmail": {
+          "@mmd.net$": 10
+        }
+      }
+    },
+    {
+      "name": "yandex.ru",
+      "signals": {
+        "netname": {
+          ".+-YANDEX-.+": 10,
+          "^YANDEX-.+": 10,
+          "^RU-YANDEXCLOUD-.+": 10
+        },
+        "netmail": {
+          "@yandex.ru$": 10,
+          "@yandex-team.ru": 10
+        }
+      }
+    },
+    {
+      "name": "rtcomm.ru",
+      "signals": {
+        "netmail": {
+          "@rtcomm.ru$": 10
+        }
+      }
+    },
+    {
+      "name": "ovh.co.uk",
+      "signals": {
+        "ptr": {
+          ".*\\.ip-178-33-202.eu": 100
+        }
+      }
+    },
+    {
+      "name": "iphoster.net",
+      "signals": {
+        "netmail": {
+          "@iphoster.net$": 10
+        }
+      }
+    },
+    {
+      "name": "oblakoteka.ru",
+      "signals": {
+        "netmail": {
+          "@oblakoteka.ru$": 10
+        }
+      }
+    },
+    {
+      "name": "melbicom.net",
+      "signals": {
+        "netname": {
+          "^MELBICOM-.+": 10
+        },
+        "netmail": {
+          "@melbicom.net": 10
+        }
+      }
+    },
+    {
+      "name": "argotel.ru",
+      "signals": {
+        "netname": {
+          "^ARGOTEL-NET$": 10
+        },
+        "netmail": {
+          "@argotel.ru": 10
+        }
+      }
+    },
+    {
+      "name": "vps.ua",
+      "signals": {
+        "netname": {
+          "^UA-HOSTIQ$": 10
+        },
+        "netmail": {
+          "@vps.ua": 10
+        }
+      }
+    },
+    {
+      "name": "itsoft.ru",
+      "signals": {
+        "netname": {
+          "^ITSOFT-net$": 10
+        },
+        "netmail": {
+          "@itsoft.ru": 10
+        }
+      }
+    },
+    {
+      "name": "home.pl",
+      "signals": {
+        "ptr": {
+          ".*\\.home.pl$": 100
+        },
+        "netname": {
+          "^HOMEPL$": 50
+        },
+        "netmail": {
+          "@home.pl": 20
+        }
+      }
+    },
+    {
+      "name": "nic.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.nic.ru$": 100
+        },
+        "netmail": {
+          "@nic.ru": 20
+        }
+      }
+    },
+    {
+      "name": "vernet.lv",
+      "signals": {
+        "netname": {
+          "^VERNET-.+": 10
+        },
+        "netmail": {
+          "@vernet.lv": 20
+        }
+      }
+    },
+    {
+      "name": "hal.si",
+      "signals": {
+        "ptr": {
+          ".*\\.hal.si$": 100
+        }
+      }
+    },
+    {
+      "name": "rt-dc.ru",
+      "signals": {
+        "netname": {
+          ".+-SFDATA-.+": 5
+        },
+        "netmail": {
+          "@safedata.ru$": 20
+        }
+      }
+    },
+    {
+      "name": "iqdata.center",
+      "signals": {
+        "netmail": {
+          "@iqdata.center$": 5
+        }
+      }
+    },
+    {
+      "name": "estt.ru",
+      "signals": {
+        "netmail": {
+          "@estt.ru$": 5
+        }
+      }
+    },
+    {
+      "name": "mtw.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.mtw.ru$": 100
+        },
+        "netmail": {
+          "@mtw.ru$": 5
+        }
+      }
+    },
+    {
+      "name": "mittwald.de",
+      "signals": {
+        "netname": {
+          "^MITTWALD-NET$": 10
+        },
+        "netmail": {
+          "@mittwald.de$": 10
+        }
+      }
+    },
+    {
+      "name": "mvps.net",
+      "signals": {
+        "netname": {
+          "^MVPS-NET$": 10
+        },
+        "netmail": {
+          "@mvps.net$": 10
+        }
+      }
+    },
+    {
+      "name": "artlebedev.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.design.ru$": 100
+        }
+      }
+    },
+    {
+      "name": "nforce.com",
+      "signals": {
+        "netmail": {
+          "@nforce.com$": 10
+        }
+      }
+    },
+    {
+      "name": "rackray.com",
+      "signals": {
+        "netname": {
+          ".*RACKRAY-.+": 5
+        },
+        "netmail": {
+          "@rackray.com$": 5
+        }
+      }
+    },
+    {
+      "name": "quickpacket.com",
+      "signals": {
+        "ptr": {
+          ".*\\.quickpacket.com$": 100
+        },
+        "netmail": {
+          "@quickpacket.com$": 5
+        }
+      }
+    },
+    {
+      "name": "planetahost.ru",
+      "signals": {
+        "netname": {
+          "^RU-PLANETAHOST$": 20
+        },
+        "netmail": {
+          "@spacenet.ru$": 5
+        }
+      }
+    },
+    {
+      "name": "worldstream.com",
+      "signals": {
+        "netname": {
+          "^WORLDSTREAM$": 20
+        },
+        "netmail": {
+          "@worldstream.nl$": 5
+        }
+      }
+    },
+    {
+      "name": "balt.net",
+      "signals": {
+        "netmail": {
+          "@balt.net$": 10
+        }
+      }
+    },
+    {
+      "name": "e24cloud.com",
+      "signals": {
+        "netname": {
+          "^E24-NET$": 10
+        },
+        "netmail": {
+          "@e24cloud.com$": 5
+        }
+      }
+    },
+    {
+      "name": "infobox.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.datapoint.ru$": 100
+        },
+        "netname": {
+          "^INFOBOX$": 10
+        },
+        "netmail": {
+          "@infobox.ru$": 5
+        }
+      }
+    },
+    {
+      "name": "prom.ua",
+      "signals": {
+        "ptr": {
+          ".*\\.prom.ua$": 100
+        }
+      }
+    },
+    {
+      "name": "vds.sh",
+      "signals": {
+        "netmail": {
+          "@vds.sh$": 5
+        }
+      }
+    },
+    {
+      "name": "hostforweb.com",
+      "signals": {
+        "ptr": {
+          ".*\\.hostforweb.net$": 100
+        },
+        "netname": {
+          ".*HostForWeb-LLC$": 10
+        },
+        "netmail": {
+          "@host1plus.com": 5,
+          "@hostforweb.com": 5
+        }
+      }
+    },
+    {
+      "name": "hts.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.ht-systems.ru$": 100
+        },
+        "netmail": {
+          "@ht-systems.ru": 50
+        }
+      }
+    },
+    {
+      "name": "west-hoster.by",
+      "signals": {
+        "netname": {
+          "^WestHostPE-.*": 50
+        },
+        "netmail": {
+          "@west-hoster.by": 50
+        }
+      }
+    },
+    {
+      "name": "netland.by",
+      "signals": {
+        "netmail": {
+          "@netland.by": 50
+        }
+      }
+    },
+    {
+      "name": "proisp.no",
+      "signals": {
+        "ptr": {
+          ".*\\.proisp.no$": 100
+        },
+        "netmail": {
+          "@proisp.no": 50
+        }
+      }
+    },
+    {
+      "name": "ruweb.net",
+      "signals": {
+        "netname": {
+          "^RU-RUWEB-.*": 50
+        },
+        "netmail": {
+          "@ruweb.net": 50
+        }
+      }
+    },
+    {
+      "name": "wix.com",
+      "signals": {
+        "netname": {
+          "^wix_com_inc$": 50
+        },
+        "netmail": {
+          "@wix.com": 50
+        }
+      }
+    },
+    {
+      "name": "best-hoster.ru",
+      "signals": {
+        "netname": {
+          "^BEST-HOSTER-NET$": 50
+        },
+        "netmail": {
+          "@best-hoster.ru": 50
+        }
+      }
+    },
+    {
+      "name": "serverel.com",
+      "signals": {
+        "netname": {
+          "^SERVEREL-NET$": 15
+        },
+        "netmail": {
+          "@serverel.com": 20
+        }
+      }
+    },
+    {
+      "name": "prohoster.info",
+      "signals": {
+        "ptr": {
+          ".*\\.prohoster.info$": 100
+        }
+      }
+    },
+    {
+      "name": "aftermarket.pl",
+      "signals": {
+        "ptr": {
+          ".*\\.47.pl$": 100
+        },
+        "netname": {
+          "^AfterMarket.*": 15
+        },
+        "netmail": {
+          "@aftermarket.pl": 50
+        }
+      }
+    },
+    {
+      "name": "alchemy.net",
+      "signals": {
+        "ptr": {
+          ".*\\.alchemy.net$": 100
+        },
+        "netname": {
+          "^ALCH-.*": 1
+        },
+        "netmail": {
+          "@alchemy.net": 50
+        }
+      }
+    },
+    {
+      "name": "gigenet.com",
+      "signals": {
+        "ptr": {
+          ".*\\.gigenet.com$": 10
+        }
+      }
+    },
+    {
+      "name": "recommerce.by",
+      "signals": {
+        "ns": {
+          ".*\\.recommerce.by$": 1,
+          ".*\\.recoms.pro.$": 1,
+          ".*\\.recoms.net.$": 1
+        }
+      }
+    },
+    {
+      "name": "creatium.io",
+      "signals": {
+        "ns": {
+          ".*\\.creatium.io.$": 1
+        }
+      }
+    },
+    {
+      "name": "ihor.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.ihor-hosting.ru$": 30
+        },
+        "netmail": {
+          "@ihor-hosting.ru": 30,
+          "@ihor.ru": 30
+        },
+        "netname": {
+          "^Ihor_project$": 15,
+          "^IHORNET$": 15
+        }
+      }
+    },
+    {
+      "name": "basnet.by",
+      "signals": {
+        "netmail": {
+          "@basnet.by": 30
+        },
+        "netname": {
+          "^BAS-NET$": 15
+        }
+      }
+    },
+    {
+      "name": "hostex.lt",
+      "signals": {
+        "ptr": {
+          ".*\\.hostex.lt$": 30
+        },
+        "netmail": {
+          "@basnet.by": 30
+        },
+        "netname": {
+          "^BAS-NET$": 15
+        }
+      }
+    },
+    {
+      "name": "ipserver.su",
+      "signals": {
+        "netmail": {
+          "@ipserver.su": 30
+        },
+        "netname": {
+          "^RU-IPSERVER$": 15
+        }
+      }
+    },
+    {
+      "name": "iroko.net",
+      "signals": {
+        "netmail": {
+          "@iroko.net": 10
+        }
+      }
+    },
+    {
+      "name": "datacenter.eu",
+      "signals": {
+        "netmail": {
+          "@datacenter.eu": 10
+        },
+        "ptr": {
+          ".*\\.dclux.com$": 30
+        }
+      }
+    },
+    {
+      "name": "host.ua",
+      "signals": {
+        "ptr": {
+          ".*\\.host.ua$": 30
+        }
+      }
+    },
+    {
+      "name": "dosarrest.com",
+      "signals": {
+        "netmail": {
+          "@dosarrest.com": 10
+        }
+      }
+    },
+    {
+      "name": "cloudns.net",
+      "signals": {
+        "ptr": {
+          ".*\\.cloudns.net$": 30
+        }
+      }
+    },
+    {
+      "name": "above.com",
+      "signals": {
+        "ptr": {
+          ".*\\.above.com$": 30
+        }
+      }
+    },
+    {
+      "name": "handyhost.ru",
+      "signals": {
+        "ptr": {
+          ".*\\.handyhost.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "serveroid.com",
+      "signals": {
+        "netmail": {
+          "@flops.ru": 10
+        },
+        "ptr": {
+          ".*\\.flops.ru$": 30
+        }
+      }
+    },
+    {
+      "name": "alexhost.com",
+      "signals": {
+        "netmail": {
+          "alexhosteurope@gmail.com": 10
+        },
+        "ptr": {
+          ".*\\.alexhost.md$": 30
+        },
+        "netname": {
+          "^AlexHost-NET$": 15
+        }
+      }
+    },
+    {
+      "name": "relevate.ru",
+      "signals": {
+        "netmail": {
+          "@relevate.ru": 10
+        },
+        "ptr": {
+          ".*\\.relevate.ru$": 30
+        },
+        "netname": {
+          "^RELEVATE-NET$": 15
+        }
+      }
+    },
+    {
+      "name": "hostcms.by",
+      "signals": {
+        "netmail": {
+          "@hostcms.by": 50
+        },
+        "ptr": {
+          ".*\\.hostcms.by$": 30
+        },
+        "netname": {
+          "^HOSTCMSBY$": 15
+        }
+      }
+    },
+    {
+      "name": "firstbyte.pro",
+      "signals": {
+        "netmail": {
+          "@firstbyte.pro": 15
+        },
+        "netname": {
+          "^FIRSTBYTE$": 15
+        }
+      }
+    },
+    {
+      "name": "hosti.by",
+      "signals": {
+        "ptr": {
+          ".*\\.hosti.by$": 100
+        }
+      }
+    },
+    {
+      "name": "hosta.by",
+      "signals": {
+        "ptr": {
+          ".*\\.hosta.by$": 100
+        }
+      }
+    },
+    {
+      "name": "kerio-by.org",
+      "signals": {
+        "ptr": {
+          ".*\\.kerio-by.org$": 100
+        }
+      }
+    },
+    {
+      "name": "freedom.by",
+      "signals": {
+        "ptr": {
+          ".*\\.freedom.by$": 100
+        }
+      }
+    }
+  ]
+}

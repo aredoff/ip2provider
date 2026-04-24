@@ -30,3 +30,7 @@ venv/
 ENV/
 env/
 old/
+/.env
+
+/example
+

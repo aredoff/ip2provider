@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ip2provider/ip2provider/provider.v1.schema.json",
+  "title": "IP2Provider rules v1",
+  "type": "object",
+  "required": ["version", "providers"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "const": 1 },
+    "providers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "signals"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "signals": { "$ref": "#/$defs/signals" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "weightMap": {
+      "type": "object",
+      "additionalProperties": { "type": "integer" }
+    },
+    "signals": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "properties": {
+        "netname": { "$ref": "#/$defs/weightMap" },
+        "ptr": { "$ref": "#/$defs/weightMap" },
+        "netmail": { "$ref": "#/$defs/weightMap" },
+        "ip": { "$ref": "#/$defs/weightMap" },
+        "ns": { "$ref": "#/$defs/weightMap" },
+        "asn": {
+          "type": "object",
+          "additionalProperties": false,
+          "patternProperties": {
+            "^[0-9]+$": { "type": "integer" }
+          }
+        },
+        "asname": { "$ref": "#/$defs/weightMap" },
+        "org": { "$ref": "#/$defs/weightMap" }
+      }
+    }
+  }
+}
